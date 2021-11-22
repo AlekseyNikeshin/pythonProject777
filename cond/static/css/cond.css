@@ -1,0 +1,54 @@
+h1 a{
+    color: #87CEFA;
+    font-family: "Lobster"
+    }
+
+.page-header{
+background-color:#FFFF00;
+margin-top: 0;
+padding: 20px 20px 20px 40px;
+ }
+
+.page-header h1, .page-header h1 a, .page-header h1a:visited, .page-header h1 a:active{
+ color: ##FF0000;
+ fon-size: 286pt;
+ text-decoration:none;
+ }
+
+.content {
+    color:#0000CD;
+    margin-left: 40px;
+ }
+
+h1, h2, h3, h4 {
+ font-family:"Lobster", cursive;
+ }
+
+.date {
+ color:#828282
+ }
+
+.save {
+ float:right;
+ }
+
+.cond-form textarea, .cond form input{
+ width: 100%;
+ }
+
+.top-menu, .top-menu:hover, .top-menu:visited{
+ color: #ffffff;
+ float:right;
+ font-size: 26 36pt;
+ margin-right: 20px
+ }
+
+.cond {
+ color: #A52A2A;
+ margin-bottom: 20px;
+ }
+
+.cond h1 a, .cond h1 a:visited{
+ color:#DAA520
+ }
+
