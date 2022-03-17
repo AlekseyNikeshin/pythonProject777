@@ -39,12 +39,4 @@ def cond_edit(request, pk):
         form=CondForm(instance=cond)
     return render(request,'cond/cond_edit.html',{'form':form})
 
-def cond_iverter(request,type):
-    conds = Cond.objects.filter(type.order_by('type'))
 
-    return render(request, "cond/cond_inverter.html", {'conds': conds})
-
-def cond_onoff(request,type):
-    conds = Cond.objects.filter(type.order_by('type'))
-
-    return render(request, "cond/cond_onoff.html", {'conds': conds})

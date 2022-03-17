@@ -10,6 +10,7 @@ class Cond(models.Model):
     price = models.CharField(max_length=15)
     published_date = models.DateTimeField(blank=True, null=True)
 
+
     def publish(self):
         self.published_date=timezone.now()
         self.save()
